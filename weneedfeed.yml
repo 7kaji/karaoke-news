@@ -1,0 +1,10 @@
+title: Karaoke News
+
+pages:
+  - id: shicorp
+    title: 株式会社シン・コーポレーション
+    url: https://www.shincorp.co.jp/
+    item_selector: div.news-block-01 > div > ul > li.clearfix
+    item_link_selector: div.title_oshirase > a
+    item_title_selector: div.title_oshirase > a
+    item_time_selector: div.date_oshirase
