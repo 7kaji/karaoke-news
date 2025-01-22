@@ -22,5 +22,12 @@ pages:
     item_link_selector: div > span > a
     item_title_selector: div > span > a
     item_time_selector: span
+  - id: dkkaraoke
+    title: 株式会社第一興商 
+    url: https://www.dkkaraoke.co.jp/news/
+    item_selector: li.c-news-icon-row__item
+    item_link_selector: a
+    item_title_selector: span.c-news-icon-row__body 
+    item_time_selector: span.c-news-icon-row__time
 
 
