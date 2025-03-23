@@ -15,13 +15,6 @@ pages:
     item_link_selector: div.item > a
     item_title_selector: div.item > a > span.news_tx
     item_time_selector: div.item > a > span.date
-  - id: koshidaka-release
-    title: 株式会社コシダカ(リリース情報)
-    url: https://www.koshidaka.co.jp/releases.html
-    item_selector: div.irp-item.shop
-    item_link_selector: div > span > a
-    item_title_selector: div > span > a
-    item_time_selector: span
   - id: dkkaraoke
     title: 株式会社第一興商 
     url: https://www.dkkaraoke.co.jp/news/
