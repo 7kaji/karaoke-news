@@ -4,23 +4,23 @@ pages:
   - id: shicorp
     title: 株式会社シン・コーポレーション
     url: https://www.shincorp.co.jp/
-    item_selector: div.news-block-01 > div > ul > li.clearfix
-    item_link_selector: div.title_oshirase > a
-    item_title_selector: div.title_oshirase > a
-    item_time_selector: div.date_oshirase
+    item_selector: '.news-block-01 ul li'
+    item_link_selector: '.title_oshirase a[href*=".pdf"]'
+    item_title_selector: '.title_oshirase a'
+    item_time_selector: '.date_oshirase'
   - id: koshidaka-ir
     title: 株式会社コシダカ(IR情報)
     url: https://www.koshidakaholdings.co.jp/ja/ir/news.html
-    item_selector:  ul.tabItems > li
-    item_link_selector: div.item > a
-    item_title_selector: div.item > a > span.news_tx
-    item_time_selector: div.item > a > span.date
+    item_selector: 'ul.tabItems li'
+    item_link_selector: 'a[href*=".pdf"]'
+    item_title_selector: '.news_tx'
+    item_time_selector: '.date'
   - id: dkkaraoke
     title: 株式会社第一興商 
     url: https://www.dkkaraoke.co.jp/news/
-    item_selector: li.c-news-icon-row__item
-    item_link_selector: a
-    item_title_selector: span.c-news-icon-row__body 
-    item_time_selector: span.c-news-icon-row__time
+    item_selector: '.c-news-icon-row__item'
+    item_link_selector: 'a.linktxt'
+    item_title_selector: '.c-news-icon-row__body'
+    item_time_selector: '.c-news-icon-row__time'
 
 
